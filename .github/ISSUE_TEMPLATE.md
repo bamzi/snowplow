@@ -1,25 +1,48 @@
-<!--
+/!\ IMPORTANT /!\
 
-** Please read the guidelines below. **
+As explained in the blog post here https://snowplowanalytics.com/blog/2020/07/16/changing-releasing/ all the components of Snowplow pipeline have been moved to their own repo, issues should be created directly on the appropriate repo :
 
-GitHub issues are reserved for bug reports.
-The best place to ask general questions or ask for community support is
-[on our Discourse](https://discourse.snowplowanalytics.com/).
+Trackers
+- Android: https://github.com/snowplow/snowplow-android-tracker
+- .NET: https://github.com/snowplow/snowplow-dotnet-tracker
+- Go: https://github.com/snowplow/snowplow-golang-tracker
+- JAVA: https://github.com/snowplow/snowplow-java-tracker
+- Javascript: https://github.com/snowplow/snowplow-javascript-tracker
+- Node.js: https://github.com/snowplow/snowplow-nodejs-tracker
+- Objective-C: https://github.com/snowplow/snowplow-objc-tracker
+- PHP: https://github.com/snowplow/snowplow-php-tracker
+- Python: https://github.com/snowplow/snowplow-python-tracker
+- React Native: https://github.com/snowplow-incubator/snowplow-react-native-tracker
+- Ruby: https://github.com/snowplow/snowplow-ruby-tracker
+- Scala: https://github.com/snowplow/snowplow-scala-tracker
+- Unity: https://github.com/snowplow/snowplow-unity-tracker
 
--->
+Collector: https://github.com/snowplow/stream-collector
 
-**Project**: <!-- e.g. Stream Enrich, Scala Stream Collector -->
+Enrich: https://github.com/snowplow/enrich
 
-**Version**:
+Loaders
+- BigQuery (streaming): https://github.com/snowplow-incubator/snowplow-bigquery-loader
+- Redshift / Postgres (batch): https://github.com/snowplow/snowplow-rdb-loader
+- Snowflake (batch): https://github.com/snowplow-incubator/snowplow-snowflake-loader
+- Google Cloud Storage (streaming): https://github.com/snowplow-incubator/snowplow-google-cloud-storage-loader
+- Amazon S3 (streaming): https://github.com/snowplow/snowplow-s3-loader
+- Postgres (streaming): https://github.com/snowplow-incubator/snowplow-postgres-loader
+- Elasticsearch (streaming): https://github.com/snowplow/snowplow-elasticsearch-loader
 
-**Expected behavior**:
+Testing
+- Mini: https://github.com/snowplow/snowplow-mini
+- Micro: https://github.com/snowplow-incubator/snowplow-micro
 
-**Actual behavior**:
+Parsing enriched event
 
-**Steps to reproduce**:
+- Analytics SDK Scala: https://github.com/snowplow/snowplow-scala-analytics-sdk
+- Analytics SDK Python: https://github.com/snowplow/snowplow-python-analytics-sdk
+- Analytics SDK .NET: https://github.com/snowplow/snowplow-dotnet-analytics-sdk
+- Analytics SDK Javascript: https://github.com/snowplow-incubator/snowplow-js-analytics-sdk/
 
-<!-- Please try to be as detailed as possible so that we can reproduce and fix the issue
-as quickly as possible. -->
- 1.
- 2.
+Please do not log an issue if you are asking for support, all of our community support requests go through
+our Discourse forum: https://discourse.snowplowanalytics.com/.
 
+Posting your problem there ensures more people will see it and you should get support faster than creating a new issue on
+GitHub. Please do create a new issue on GitHub if you think you've found a bug though!
