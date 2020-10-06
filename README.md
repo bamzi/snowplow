@@ -1,7 +1,6 @@
 # Snowplow
 
 [![License][license-image]][license]
-[![Join the chat at https://gitter.im/snowplow/snowplow][gitter-image]][gitter]
 
 <img src="https://d3i6fms1cm1j0i.cloudfront.net/github-wiki/images/snowplow-new-logo-large.png"
  alt="Snowplow logo" title="Snowplow" align="right" />
@@ -89,9 +88,7 @@ Please use directly the repo of a component to report issues and create PRs:
 
 We want to make it super-easy for Snowplow users and contributors to talk to us and connect with each other, to share ideas, solve problems and help make Snowplow awesome. Here are the main channels we're running currently, we'd love to hear from you on one of them:
 
-### Discourse
-
-[Snowplow Discourse Forum][discourse]
+### [Discourse][discouurse]
 
 This is for all Snowplow users: engineers setting up Snowplow, data modelers structuring the data and data consumers building insights. You can find guides, recipes, questions and answers from Snowplow users including the Snowplow team.
 
@@ -101,7 +98,7 @@ We welcome all questions and contributions!
 
 [@SnowplowData][snowplow-twitter] for official news or [@SnowplowLabs][snowplow-labs-twitter] for engineering-heavy conversations.
 
-## GitHub
+### GitHub
 
 If you spot a bug, then please raise an issue in the GitHub repo of this component.
 Likewise if you have developed a cool new feature or an improvement, please open a pull request,
@@ -114,11 +111,6 @@ If you want to brainstorm a potential new feature, then [Discourse][discourse] i
 [community@snowplowanalytics.com][community-email]
 
 If you want to talk directly to us (e.g. about a commercially sensitive issue), email is the easiest way.
-
-### Gitter
-
-If you want to discuss already created issues, potential bugs, new features you would like to work on or any kind of developer
-chat, you can head over to our [Gitter room](https://gitter.im/snowplow/snowplow).
 
 ## Copyright and license
 
@@ -135,8 +127,6 @@ limitations under the License.
 
 [license-image]: http://img.shields.io/badge/license-Apache--2-blue.svg?style=flat
 [license]: http://www.apache.org/licenses/LICENSE-2.0
-[gitter-image]: https://badges.gitter.im/snowplow/snowplow.svg
-[gitter]: https://gitter.im/snowplow/snowplow?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
 [website]: https://snowplowanalytics.com
 [docs]: https://docs.snowplowanalytics.com/open-source-docs/
